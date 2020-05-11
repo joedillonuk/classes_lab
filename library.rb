@@ -1,16 +1,13 @@
 class Library
 
-    attr_accessor :book, :rental_details
+    attr_accessor :library_list
 
-  def initialize(book, rental_details)
-    @book = book
-    @rental_details = rental_details
+  def initialize(library_list)
+    @library_list = library_list
   end
 
-  def book
-    return @book
+  def full_library
+    return @library_list
   end
-
-
 
 end
